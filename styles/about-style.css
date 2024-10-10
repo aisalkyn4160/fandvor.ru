@@ -1,0 +1,24 @@
+.about{
+    padding: 162px 0;
+}
+.about-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+.about-text{
+    max-width: 588px;
+}
+.about-text p{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 750px){
+    .about{
+        padding: 60px 0 40px;
+    }
+    .about-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

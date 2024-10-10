@@ -1,0 +1,48 @@
+.catalog{
+    padding: 120px 0;
+}
+.catalog-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.catalog-item{
+    padding: 32px;
+    background-image: url('../assets/imgs/Exclude.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.catalog h2{
+    margin-bottom: 28px;
+}
+.catalog-item img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px){
+    .catalog{
+        padding: 40px 0;
+    }
+    .catalog-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .catalog-ttl{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-bottom: 12px;
+    }
+    .catalog h2{
+        margin-bottom: 12px;
+    }
+    .catalog-item{
+        padding: 12px;
+    }
+    .catalog-item img{
+        margin-bottom: 12px;
+    }
+}
