@@ -86,10 +86,10 @@ header{
 }
 
 main{
-	background-image: url('../assets/imgs/main-bg.png');
+	background-image: url('../assets/imgs/main-bg\ —\ копия.png');
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position:  center -231px;
+	background-size: cover;
+	background-position:  center 0;
 }
 
 footer{
@@ -100,7 +100,6 @@ footer{
 	max-width: 1230px;
 	margin: 0 auto;
 	padding: 0 15px;
-	border: 1px solid red;
 }
 
 h2{
